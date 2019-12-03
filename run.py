@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 from __future__ import print_function
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from matplotlib import __version__ as mpl_version
 
 from chart import DrawingCore
